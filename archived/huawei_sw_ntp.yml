@@ -1,0 +1,18 @@
+---
+### CORRIGE NTP SWITCHES HUAWEI - João Vitor Costa Medeiros
+- hosts: switches_huawei
+  gather_facts: false
+
+  tasks:
+    - name: Corrige NTP Server do Switch Huawei S5700
+      ce_command:
+        commands:
+          - system-view
+          - ntp-service unicast-server 10.96.0.6 preference
+          - ntp-service unicast-server 10.96.0.1
+          - undo ntp-service unicast-server 10.112.0.4
+          - undo ntp-service unicast-server 10.112.0.9
+
+    - name: Salva as configurações do Switch Huawei S5700
+      ce_config:
+        save: yes

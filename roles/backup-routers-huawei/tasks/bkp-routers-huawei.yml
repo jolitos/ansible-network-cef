@@ -1,0 +1,12 @@
+---
+# Backup task
+- name: Insert the command "Display Running-Config" to collect all the configurations.
+  cli_command:
+    command: display current-configuration
+  register: config
+
+- name: Copy the configuration file of each HUAWEI AR1220 Router and put it in a .cfg file
+  copy:
+    content: "{{ config.stdout }}"
+    dest: "/mnt/c/bkp_{{ hostvars.localhost.DTG }}/Routers/{{ inventory_hostname }}.cfg"
+    mode: '0644'

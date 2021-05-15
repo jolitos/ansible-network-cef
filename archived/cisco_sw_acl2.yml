@@ -1,0 +1,26 @@
+### ACCESS-LIST CISCO - João Vitor Costa Medeiros
+- hosts: switches_cisco
+  gather_facts: false
+
+  tasks:
+    - name: Remove ACL dos Switches Cisco 2960
+      ios_config:
+        commands:
+          - no access-list 66
+
+    - name: Configura ACL dos Switches Cisco 2960
+      ios_config:
+        commands:
+          - access-list 66 permit 10.0.240.250
+          - access-list 66 permit 10.123.10.113
+          - access-list 66 permit 10.96.5.42
+          - access-list 66 permit 10.96.5.39
+          - access-list 66 permit 10.123.38.186
+          - access-list 66 permit 10.122.80.0 0.0.0.127
+          - access-list 66 permit 10.123.42.253
+          - access-list 66 permit 10.123.42.254
+          - access-list 66 permit 10.123.42.242
+          - access-list 66 permit 10.123.42.243
+          - access-list 66 permit 10.123.42.244
+          - access-list 66 deny   any log
+        save_when: modified

@@ -1,0 +1,16 @@
+---
+# tasks file for create-directory-router
+# Task to create a directory "Routers" with the path "/bkp_date/Routers/"
+- name: Collect Year, Month and Day.
+  setup:
+    filter: "ansible_date_time"
+    gather_subset: "!all"
+    
+- name: Put today's date in a variable.
+  set_fact:
+    DTG: "{{ ansible_date_time.date }}"
+
+- name: Create directory with the following path C:\bkp_"year-month-day"\Routers\
+  file:
+    path: "/mnt/c/bkp_{{ hostvars.localhost.DTG }}/Routers/"
+    state: directory

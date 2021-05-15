@@ -1,0 +1,17 @@
+### ACCESS-LIST SWITCHES HUAWEI - João Vitor Costa Medeiros
+- hosts: switches_huawei
+  gather_facts: false
+
+  tasks:
+    - name: Corrige Retransmit NAC do Switch Huawei S5700
+      ce_command:
+        commands:
+          - system-view
+          - radius-server template radius-mab
+          - radius-server retransmit 3 timeout 7
+          - radius-server template radius-dot1x
+          - radius-server retransmit 3 timeout 7
+
+    - name: Salva as configurações do Switch Huawei S5700
+      ce_config:
+        save: yes

@@ -1,0 +1,3 @@
+---
+# tasks file for backup-routers-huawei
+- include: bkp-routers-huawei.yml

@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  roles:
+    - create-directory-switch
+
+- hosts: switches_huawei
+  roles:
+    - backup-switches-huawei

@@ -1,0 +1,3 @@
+hosts
+vault-pass.txt
+group_vars/all.yml

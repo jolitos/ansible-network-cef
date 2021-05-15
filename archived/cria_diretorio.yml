@@ -1,0 +1,25 @@
+---
+### CRIA DIRETÓRIO - João Vitor Costa Medeiros
+- hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: Coleta o ANO, MÊS e DIA.
+      setup:
+        filter: "ansible_date_time"
+        gather_subset: "!all"
+    
+    - name: Aloca a data de hoje em uma variável.
+      set_fact:
+        DTG: "{{ ansible_date_time.date }}"
+
+    - name: Cria o diretório C:\"ano-mês-dia"\Routers\
+      file:
+        path: /mnt/c/{{ hostvars.localhost.DTG }}/Routers/
+        state: directory
+
+    - name: Cria o diretório C:\"ano-mês-dia"\Switches\
+      file:
+        path: /mnt/c/{{ hostvars.localhost.DTG }}/Switches/
+        state: directory
+  run_once: true

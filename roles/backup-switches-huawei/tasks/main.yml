@@ -1,0 +1,3 @@
+---
+# tasks file for backup-switches-huawei
+- include: bkp-switches-huawei.yml

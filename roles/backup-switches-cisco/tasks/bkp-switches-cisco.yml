@@ -1,0 +1,8 @@
+---
+# Backup task
+- name: Copy the configuration file of each CISCO 2960 Switch and put it in a .cfg file
+  ios_config:
+    backup: yes
+    backup_options:
+      filename: "{{ inventory_hostname }}.cfg"
+      dir_path: /mnt/c/bkp_{{ hostvars.localhost.DTG }}/Switches/

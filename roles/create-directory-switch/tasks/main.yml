@@ -1,0 +1,16 @@
+---
+# tasks file for create-directory-switch
+# Task to create a directory "Switches" with the path "/bkp_date/Switches/"
+- name: Collect Year, Month and Day.
+  setup:
+    filter: "ansible_date_time"
+    gather_subset: "!all"
+    
+- name: Put today's date in a variable.
+  set_fact:
+    DTG: "{{ ansible_date_time.date }}"
+
+- name: Create directory with the following path C:\bkp_"year-month-day"\Switches\
+  file:
+    path: "/mnt/c/bkp_{{ hostvars.localhost.DTG }}/Switches/"
+    state: directory

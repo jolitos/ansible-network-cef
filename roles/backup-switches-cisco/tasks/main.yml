@@ -1,0 +1,3 @@
+---
+# tasks file for backup-switches-cisco
+- include: bkp-switches-cisco.yml
