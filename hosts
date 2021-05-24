@@ -1,0 +1,1646 @@
+# This is the default ansible 'hosts' file.
+
+# ROUTERS HOSTS
+
+[routers_cisco]
+#sc2625ra1 ansible_host=10.112.0.6	#SSH 1.5
+
+[routers_huawei]
+SC0019RA1 ansible_host=10.115.0.80
+SC0408RA1 ansible_host=10.112.0.35
+SC0409RA1 ansible_host=10.112.0.53
+SC0410RA1 ansible_host=10.113.0.101
+SC0410RA2 ansible_host=10.113.0.87
+SC0410RA3 ansible_host=10.113.0.88
+SC0411RA1 ansible_host=10.113.0.112
+SC0412RA1 ansible_host=10.112.0.39
+SC0412RA2 ansible_host=10.112.0.58
+SC0413RA1 ansible_host=10.114.0.38
+SC0414RA1 ansible_host=10.112.0.75
+SC0415RA1 ansible_host=10.113.0.76
+SC0415RA2 ansible_host=10.113.0.78
+SC0415RA4 ansible_host=10.112.0.80
+SC0416RA1 ansible_host=10.112.0.47
+SC0417RA1 ansible_host=10.114.0.42
+SC0417RA2 ansible_host=10.114.0.54
+SC0418RA1 ansible_host=10.112.0.102
+SC0419RA1 ansible_host=10.114.0.34
+SC0420RA1 ansible_host=10.113.0.106
+SC0420RA2 ansible_host=10.112.0.119
+SC0421RA1 ansible_host=10.113.0.84
+SC0422RA1 ansible_host=10.112.0.44
+SC0423RA1 ansible_host=10.112.0.69
+SC0424RA1 ansible_host=10.114.0.40
+SC0425RA1 ansible_host=10.113.0.100
+SC0425RA2 ansible_host=10.113.0.90
+SC0426RA1 ansible_host=10.113.0.99
+SC0427RA1 ansible_host=10.113.0.80
+SC0571RA1 ansible_host=10.114.0.48
+SC0572RA1 ansible_host=10.113.0.110
+SC0627RA1 ansible_host=10.112.0.99
+SC0628RA1 ansible_host=10.113.0.74
+SC0701RA1 ansible_host=10.112.0.110
+SC0702RA1 ansible_host=10.112.0.106
+SC0796RA1 ansible_host=10.112.0.109
+SC0809RA1 ansible_host=10.112.0.131
+SC0851RA1 ansible_host=10.112.0.100
+SC0852RA1 ansible_host=10.112.0.129
+SC0853RA1 ansible_host=10.113.0.103
+SC0878RA1 ansible_host=10.113.0.71
+SC0879RA1 ansible_host=10.112.0.68
+SC0921RA1 ansible_host=10.112.0.37
+SC0921RA2 ansible_host=10.112.0.57
+SC1011RA1 ansible_host=10.112.0.72
+SC1011RA2 ansible_host=10.115.0.41
+SC1011RA3 ansible_host=10.115.0.45
+SC1070RA1 ansible_host=10.113.0.81
+SC1071RA1 ansible_host=10.112.0.101
+SC1073RA1 ansible_host=10.112.0.45
+SC1074RA1 ansible_host=10.114.0.41
+SC1075RA1 ansible_host=10.113.0.83
+SC1077RA1 ansible_host=10.112.0.103
+SC1078RA1 ansible_host=10.112.0.51
+SC1079RA1 ansible_host=10.113.0.98
+SC1080RA1 ansible_host=10.112.0.104
+SC1081RA1 ansible_host=10.113.0.72
+SC1082RA1 ansible_host=10.113.0.109
+SC1084RA1 ansible_host=10.113.0.102
+SC1084RA2 ansible_host=10.113.0.86
+SC1085RA1 ansible_host=10.112.0.111
+SC1102RA1 ansible_host=10.112.0.48
+SC1348RA1 ansible_host=10.112.0.36
+SC1499RA1 ansible_host=10.115.0.104
+SC1544RA1 ansible_host=10.113.0.115
+SC1554RA1 ansible_host=10.114.0.35
+SC1555RA1 ansible_host=10.112.0.40
+SC1637RA1 ansible_host=10.114.0.36
+SC1638RA1 ansible_host=10.112.0.42
+SC1660RA1 ansible_host=10.113.0.116
+SC1662RA1 ansible_host=10.113.0.79
+SC1663RA1 ansible_host=10.113.0.107
+SC1782RA1 ansible_host=10.114.0.39
+SC1784RA1 ansible_host=10.112.0.67
+SC1784RA2 ansible_host=10.112.0.86
+SC1785RA1 ansible_host=10.113.0.104
+SC1788RA1 ansible_host=10.113.0.85
+SC1791RA1 ansible_host=10.113.0.111
+SC1792RA1 ansible_host=10.112.0.132
+SC1795RA1 ansible_host=10.112.0.71
+SC1868RA1 ansible_host=10.112.0.41
+SC1873RA1 ansible_host=10.112.0.46
+SC1874RA1 ansible_host=10.112.0.38
+SC1875RA1 ansible_host=10.112.0.50
+SC1877RA1 ansible_host=10.112.0.52
+SC1877RA2 ansible_host=10.113.0.16
+SC1879RA1 ansible_host=10.112.0.70
+SC1880RA1 ansible_host=10.112.0.130
+SC1884RA1 ansible_host=10.112.0.107
+SC1885RA1 ansible_host=10.112.0.108
+SC1896RA1 ansible_host=10.112.0.74
+SC1897RA1 ansible_host=10.112.0.133
+SC1897RA2 ansible_host=10.113.0.120
+SC1924RA1 ansible_host=10.113.0.113
+SC2149RA1 ansible_host=10.115.0.108
+SC2225RA1 ansible_host=10.115.0.109
+SC2358RA1 ansible_host=10.112.0.134
+SC2362RA1 ansible_host=10.113.0.82
+SC2369RA1 ansible_host=10.113.0.105
+SC2370RA1 ansible_host=10.112.0.78
+SC2374RA1 ansible_host=10.113.0.117
+SC2375RA1 ansible_host=10.112.0.82
+SC2375RA2 ansible_host=10.112.0.122
+SC2625RA2 ansible_host=10.112.0.7
+SC7820RA1 ansible_host=10.113.0.53
+SC2705RA1 ansible_host=10.112.0.112
+SC2707RA1 ansible_host=10.114.0.43
+SC2714RA1 ansible_host=10.114.0.44
+SC2815RA1 ansible_host=10.114.0.51
+SC2816RA1 ansible_host=10.114.0.49
+SC2845RA1 ansible_host=10.114.0.46
+SC2891RA1 ansible_host=10.114.0.53
+SC2892RA1 ansible_host=10.114.0.66
+SC2894RA1 ansible_host=10.113.0.2
+SC2896RA1 ansible_host=10.113.0.3
+SC2979RA1 ansible_host=10.112.0.128
+SC3077RA1 ansible_host=10.113.0.41
+SC3078RA1 ansible_host=10.112.0.43
+SC3078RA2 ansible_host=10.112.0.76
+SC3078RA3 ansible_host=10.112.0.115
+SC3082RA1 ansible_host=10.113.0.43
+SC3130RA1 ansible_host=10.113.0.42
+SC3160RA1 ansible_host=10.113.0.19
+SC3282RA1 ansible_host=10.114.0.67
+SC3298RA1 ansible_host=10.113.0.4
+SC3299RA1 ansible_host=10.112.0.66
+SC3392RA1 ansible_host=10.112.0.34
+SC3407RA1 ansible_host=10.112.0.113
+SC3415RA1 ansible_host=10.112.0.81
+SC3522RA1 ansible_host=10.112.0.117
+SC3523RA1 ansible_host=10.115.0.35
+SC3524RA1 ansible_host=10.112.0.114
+SC3525RA1 ansible_host=10.115.0.106
+SC3533RA1 ansible_host=10.112.0.98
+SC3555RA1 ansible_host=10.113.0.108
+SC3569RA1 ansible_host=10.115.0.34
+SC3592RA1 ansible_host=10.115.0.36
+SC3614RA1 ansible_host=10.113.0.44
+SC3646RA1 ansible_host=10.113.0.12
+SC3655RA1 ansible_host=10.113.0.47
+SC3660RA1 ansible_host=10.113.0.50
+SC3684RA1 ansible_host=10.113.0.52
+SC3691RA1 ansible_host=10.113.0.67
+SC3692RA1 ansible_host=10.113.0.66
+SC3778RA1 ansible_host=10.113.0.49
+SC3830RA1 ansible_host=10.113.0.48
+SC3831RA1 ansible_host=10.113.0.51
+SC3833RA1 ansible_host=10.113.0.68
+SC3869RA1 ansible_host=10.115.0.51
+SC3885RA1 ansible_host=10.113.0.13
+SC3886RA1 ansible_host=10.113.0.69
+SC3919RA1 ansible_host=10.112.0.116
+SC3954RA1 ansible_host=10.113.0.114
+SC4029RA1 ansible_host=10.113.0.77
+SC4123RA1 ansible_host=10.114.0.37
+SC4332RA1 ansible_host=10.113.0.70
+SC4439RA1 ansible_host=10.113.0.14
+SC4444RA1 ansible_host=10.114.0.52
+SC4451RA1 ansible_host=10.115.0.52
+SC4624RA1 ansible_host=10.115.0.68
+SC4625RA1 ansible_host=10.115.0.105
+SC4626RA1 ansible_host=10.113.0.18
+SC4728RA1 ansible_host=10.115.0.79
+SC4729RA1 ansible_host=10.115.0.75
+SC4733RA1 ansible_host=10.115.0.67
+SC4873RA1 ansible_host=10.115.0.69
+SC4877RA1 ansible_host=10.115.0.74
+
+[routers_hp]
+#sc0411ra2 ansible_host=10.115.0.38
+#sc0416ra2 ansible_host=10.112.0.59
+#sc0419ra2 ansible_host=10.115.0.46
+#sc0535ra1 ansible_host=10.115.0.98
+#sc0547ra1 ansible_host=10.115.0.99
+#sc0549ra1 ansible_host=10.115.0.85
+#sc0580ra1 ansible_host=10.115.0.83
+#sc0921ra5 ansible_host=10.112.0.62
+#sc1096ra1 ansible_host=10.115.0.103
+#sc1348ra2 ansible_host=10.115.0.37    ### SEM SSH
+#sc1420ra1 ansible_host=10.115.0.102
+#sc1874ra2 ansible_host=10.112.0.96
+#sc1881ra1 ansible_host=10.112.0.105
+#sc2775ra1 ansible_host=10.114.0.45
+#sc3364ra1 ansible_host=10.113.0.73
+#sc3392ra6 ansible_host=10.115.0.42
+#sc3521ra1 ansible_host=10.112.0.84
+#sc3554ra1 ansible_host=10.112.0.79
+#sc3598ra1 ansible_host=10.113.0.17
+#sc3850ra1 ansible_host=10.115.0.73
+#sc3875ra1 ansible_host=10.115.0.84
+#sc4438ra1 ansible_host=10.115.0.53
+#sc4440ra1 ansible_host=10.115.0.76
+#sc4441ra1 ansible_host=10.115.0.82
+#sc4452ra1 ansible_host=10.115.0.66
+#sc4453ra1 ansible_host=10.115.0.70
+#sc4721ra1 ansible_host=10.115.0.101
+#sc4876ra1 ansible_host=10.115.0.100
+#sc4878ra1 ansible_host=10.115.0.72
+#sc4918ra1 ansible_host=10.115.0.71
+#sc4924ra1 ansible_host=10.115.0.78
+
+
+
+# SWITCHES HOSTS
+
+[ag0019]
+sc0019sw020 ansible_host=10.115.168.31
+sc0019sw021 ansible_host=10.115.168.30
+
+[ag0408]
+sc0408sw150 ansible_host=10.112.68.31
+sc0408sw151 ansible_host=10.112.68.30
+sc0408sw152 ansible_host=10.112.68.29
+sc0408sw153 ansible_host=10.112.68.28
+sc0408sw154 ansible_host=10.112.68.27
+sc0408sw155 ansible_host=10.112.68.26
+sc0408sw199 ansible_host=10.112.68.24
+
+[ag0409]
+sc0409sw150 ansible_host=10.112.122.31
+sc0409sw151 ansible_host=10.112.122.30
+sc0409sw152 ansible_host=10.112.122.29
+sc0409sw153 ansible_host=10.112.122.28
+sc0409sw154 ansible_host=10.112.122.27
+sc0409sw199 ansible_host=10.112.122.24
+
+[ag0410:children]
+ag0410_1
+ag0410_2
+ag0410_3
+
+[ag0410_1]
+sc0410sw150 ansible_host=10.113.183.31
+sc0410sw151 ansible_host=10.113.183.30
+sc0410sw152 ansible_host=10.113.183.29
+sc0410sw199 ansible_host=10.113.183.24
+
+[ag0410_2]
+sc0410sw100 ansible_host=10.113.184.2
+
+[ag0410_3]
+sc0410sw101 ansible_host=10.113.184.18
+
+[ag0411:children]
+ag0411_1
+ag0411_2
+
+[ag0411_1]
+sc0411sw150 ansible_host=10.113.217.31
+sc0411sw151 ansible_host=10.113.217.30
+sc0411sw152 ansible_host=10.113.217.29
+sc0411sw153 ansible_host=10.113.217.28
+sc0411sw154 ansible_host=10.113.217.27
+sc0411sw155 ansible_host=10.113.217.26
+sc0411sw199 ansible_host=10.113.217.24
+
+[ag0411_2]
+sc0411sw100 ansible_host=10.115.77.2
+
+[ag0412:children]
+ag0412_1
+ag0412_2
+
+[ag0412_1]
+sc0412sw150 ansible_host=10.112.80.31
+sc0412sw151 ansible_host=10.112.80.30
+sc0412sw152 ansible_host=10.112.80.29
+sc0412sw153 ansible_host=10.112.80.28
+sc0412sw154 ansible_host=10.112.80.27
+sc0412sw155 ansible_host=10.112.80.26
+sc0412sw199 ansible_host=10.112.80.24
+
+[ag0412_2]
+sc0412sw150 ansible_host=10.112.81.2
+
+[ag0413]
+sc0413sw150 ansible_host=10.114.77.31
+sc0413sw151 ansible_host=10.114.77.30
+sc0413sw152 ansible_host=10.114.77.29
+sc0413sw199 ansible_host=10.114.77.24
+
+[ag0414]
+sc0414sw150 ansible_host=10.112.153.31
+sc0414sw151 ansible_host=10.112.153.30
+sc0414sw152 ansible_host=10.112.153.29
+sc0414sw153 ansible_host=10.112.153.28
+sc0414sw154 ansible_host=10.112.153.27
+sc0414sw155 ansible_host=10.112.153.26
+sc0414sw156 ansible_host=10.112.153.25
+sc0414sw157 ansible_host=10.112.153.23
+sc0414sw158 ansible_host=10.112.153.22
+sc0414sw199 ansible_host=10.112.153.24
+
+[ag0415:children]
+ag0415_1
+ag0415_2
+ag0415_4
+
+[ag0415_1]
+sc0415sw150 ansible_host=10.113.144.31
+sc0415sw151 ansible_host=10.113.144.30
+sc0415sw152 ansible_host=10.113.144.29
+sc0415sw153 ansible_host=10.113.144.28
+sc0415sw154 ansible_host=10.113.144.27
+sc0415sw199 ansible_host=10.113.144.24
+
+[ag0415_2]
+sc0415sw100 ansible_host=10.113.150.31
+
+[ag0415_4]
+sc0415sw102 ansible_host=10.113.145.66
+
+[ag0416:children]
+ag0416_1
+
+[ag0416_1]
+sc0416sw150 ansible_host=10.112.104.31
+sc0416sw151 ansible_host=10.112.104.30
+sc0416sw152 ansible_host=10.112.104.29
+sc0416sw153 ansible_host=10.112.104.28
+sc0416sw154 ansible_host=10.112.104.27
+sc0416sw199 ansible_host=10.112.104.24
+
+[ag0417:children]
+ag0417_1
+ag0417_2
+
+[ag0417_1]
+sc0417sw150 ansible_host=10.114.89.31
+sc0417sw151 ansible_host=10.114.89.30
+sc0417sw152 ansible_host=10.114.89.29
+sc0417sw153 ansible_host=10.114.89.28
+sc0417sw154 ansible_host=10.114.89.27
+sc0417sw155 ansible_host=10.114.89.26
+sc0417sw199 ansible_host=10.114.89.24
+
+[ag0417_2]
+sc0417sw100 ansible_host=10.114.90.2
+
+[ag0418]
+sc0418sw150 ansible_host=10.112.199.31
+sc0418sw151 ansible_host=10.112.199.30
+sc0418sw152 ansible_host=10.112.199.29
+sc0418sw153 ansible_host=10.112.199.28
+sc0418sw199 ansible_host=10.112.199.24
+sc2817sw150 ansible_host=10.114.113.31
+
+[ag0419]
+sc0419sw150 ansible_host=10.114.65.31
+sc0419sw151 ansible_host=10.114.65.30
+sc0419sw152 ansible_host=10.114.65.29
+sc0419sw153 ansible_host=10.114.65.28
+sc0419sw154 ansible_host=10.114.65.27
+sc0419sw155 ansible_host=10.114.65.26
+sc0419sw156 ansible_host=10.114.65.25
+sc0419sw157 ansible_host=10.114.65.23
+sc0419sw158 ansible_host=10.114.65.22
+sc0419sw199 ansible_host=10.114.65.24
+
+[ag0420:children]
+ag0420_1
+ag0420_2
+
+[ag0420_1]
+sc0420sw150 ansible_host=10.113.199.31
+sc0420sw151 ansible_host=10.113.199.30
+sc0420sw152 ansible_host=10.113.199.29
+sc0420sw153 ansible_host=10.113.199.28
+sc0420sw154 ansible_host=10.113.199.27
+sc0420sw199 ansible_host=10.113.199.24
+
+[ag0420_2]
+sc0420sw100 ansible_host=10.113.200.2
+
+[ag0421]
+sc0421sw150 ansible_host=10.113.168.31
+sc0421sw151 ansible_host=10.113.168.30
+sc0421sw152 ansible_host=10.113.168.29
+sc0421sw199 ansible_host=10.113.168.24
+
+[ag0422]
+sc0422sw020 ansible_host=10.112.95.31
+sc0422sw021 ansible_host=10.112.95.30
+sc0422sw022 ansible_host=10.112.95.29
+sc0422sw050 ansible_host=10.112.95.24
+
+[ag0423]
+sc0423sw150 ansible_host=10.112.135.31
+sc0423sw151 ansible_host=10.112.135.30
+sc0423sw152 ansible_host=10.112.135.29
+sc0423sw153 ansible_host=10.112.135.28
+sc0423sw154 ansible_host=10.112.135.27
+sc0423sw199 ansible_host=10.112.135.24
+
+[ag0424]
+sc0424sw020 ansible_host=10.114.83.31
+sc0424sw021 ansible_host=10.114.83.30
+sc0424sw022 ansible_host=10.114.83.29
+sc0424sw050 ansible_host=10.114.83.24
+
+[ag0425:children]
+ag0425_1
+ag0425_1_cisco
+
+[ag0425_1]
+sc0425sw150 ansible_host=10.113.180.31
+sc0425sw151 ansible_host=10.113.180.30
+sc0425sw152 ansible_host=10.113.180.29
+sc0425sw153 ansible_host=10.113.180.28
+sc0425sw153 ansible_host=10.113.180.24
+
+[ag0425_1_cisco]
+sc0425sw020 ansible_host=10.113.180.27
+
+[ag0426]
+sc0426sw150 ansible_host=10.113.177.31
+sc0426sw151 ansible_host=10.113.177.30
+sc0426sw199 ansible_host=10.113.177.24
+
+[ag0427]
+sc0427sw150 ansible_host=10.113.156.31
+sc0427sw151 ansible_host=10.113.156.30
+sc0427sw152 ansible_host=10.113.156.29
+sc0427sw153 ansible_host=10.113.156.28
+sc0427sw199 ansible_host=10.113.156.24
+
+[ag0535]
+sc0535sw020 ansible_host=10.115.186.31
+sc0535sw021 ansible_host=10.115.186.30
+sc0535sw050 ansible_host=10.115.186.24
+
+[ag0547]
+sc0547sw020 ansible_host=10.115.189.31
+sc0547sw021 ansible_host=10.115.189.30
+sc0547sw050 ansible_host=10.115.189.24
+
+[ag0549]
+sc0549sw020 ansible_host=10.115.183.31
+sc0549sw021 ansible_host=10.115.183.30
+sc0549sw050 ansible_host=10.115.183.24
+
+[ag0571]
+sc0571sw020 ansible_host=10.114.107.31
+sc0571sw021 ansible_host=10.114.107.30
+sc0571sw022 ansible_host=10.114.107.29
+sc0571sw050 ansible_host=10.114.107.24
+
+[ag0572]
+sc0572sw150 ansible_host=10.113.211.31
+sc0572sw151 ansible_host=10.113.211.30
+sc0572sw152 ansible_host=10.113.211.29
+sc0572sw153 ansible_host=10.113.211.28
+sc0572sw154 ansible_host=10.113.211.27
+sc0572sw199 ansible_host=10.113.211.24
+
+[ag0580]
+sc0580sw020 ansible_host=10.115.177.31
+sc0580sw021 ansible_host=10.115.177.30
+
+[ag0627]
+sc0627sw150 ansible_host=10.112.189.31
+sc0627sw151 ansible_host=10.112.189.30
+sc0627sw152 ansible_host=10.112.189.29
+sc0627sw153 ansible_host=10.112.189.28
+sc0627sw199 ansible_host=10.112.189.24
+
+[ag0628]
+sc0628sw150 ansible_host=10.113.138.31
+sc0628sw151 ansible_host=10.113.138.30
+sc0628sw152 ansible_host=10.113.138.29
+sc0628sw153 ansible_host=10.113.138.28
+sc0628sw199 ansible_host=10.113.138.24
+
+[ag0701]
+sc0701sw150 ansible_host=10.112.223.31
+sc0701sw151 ansible_host=10.112.223.30
+sc0701sw152 ansible_host=10.112.223.29
+sc0701sw153 ansible_host=10.112.223.28
+sc0701sw199 ansible_host=10.112.223.24
+
+[ag0702]
+sc0702sw150 ansible_host=10.112.211.31
+sc0702sw151 ansible_host=10.112.211.30
+sc0702sw152 ansible_host=10.112.211.29
+sc0702sw153 ansible_host=10.112.211.28
+sc0702sw199 ansible_host=10.112.211.24
+
+[ag0796:children]
+ag0796_1
+ag0796_1_cisco
+
+[ag0796_1]
+sc0796sw150 ansible_host=10.112.220.31
+sc0796sw151 ansible_host=10.112.220.30
+sc0796sw152 ansible_host=10.112.220.29
+sc0796sw153 ansible_host=10.112.220.28
+
+[ag0796_1_cisco]
+sc0796sw050 ansible_host=10.112.220.24
+
+[ag0809]
+sc0809sw150 ansible_host=10.113.244.31
+sc0809sw151 ansible_host=10.113.244.30
+sc0809sw152 ansible_host=10.113.244.29
+sc0809sw153 ansible_host=10.113.244.28
+sc0809sw199 ansible_host=10.113.244.24
+
+[ag0851]
+sc0851sw020 ansible_host=10.112.193.31
+sc0851sw021 ansible_host=10.112.193.30
+sc0851sw022 ansible_host=10.112.193.29
+sc0851sw050 ansible_host=10.112.193.24
+
+[ag0852]
+sc0852sw150 ansible_host=10.113.238.31
+sc0852sw151 ansible_host=10.113.238.30
+sc0852sw152 ansible_host=10.113.238.29
+sc0852sw199 ansible_host=10.113.238.24
+
+[ag0853]
+sc0853sw020 ansible_host=10.113.189.31
+sc0853sw021 ansible_host=10.113.189.30
+sc0853sw022 ansible_host=10.113.189.29
+sc0853sw050 ansible_host=10.113.189.24
+
+[ag0878]
+sc0878sw150 ansible_host=10.113.129.31
+sc0878sw151 ansible_host=10.113.129.30
+sc0878sw152 ansible_host=10.113.129.29
+sc0878sw199 ansible_host=10.113.129.24
+
+[ag0879]
+sc0879sw150 ansible_host=10.112.132.31
+sc0879sw151 ansible_host=10.112.132.30
+sc0879sw152 ansible_host=10.112.132.29
+sc0879sw153 ansible_host=10.112.132.28
+sc0879sw154 ansible_host=10.112.132.27
+sc0879sw199 ansible_host=10.112.132.24
+
+[ag0921:children]
+ag0921_1
+ag0921_2
+
+[ag0921_1]
+sc0921sw150 ansible_host=10.112.74.31
+sc0921sw151 ansible_host=10.112.74.30
+sc0921sw152 ansible_host=10.112.74.29
+sc0921sw153 ansible_host=10.112.74.28
+sc0921sw154 ansible_host=10.112.74.27
+sc0921sw155 ansible_host=10.112.74.26
+sc0921sw156 ansible_host=10.112.74.25
+sc0921sw157 ansible_host=10.112.74.23
+sc0921sw199 ansible_host=10.112.74.24
+
+[ag0921_2]
+sc0921sw100 ansible_host=10.112.75.2
+
+[ag1011]
+sc1011sw150 ansible_host=10.112.144.31
+sc1011sw151 ansible_host=10.112.144.30
+sc1011sw152 ansible_host=10.112.144.29
+sc1011sw153 ansible_host=10.112.144.28
+sc1011sw154 ansible_host=10.112.144.27
+sc1011sw199 ansible_host=10.112.144.24
+
+[ag1070]
+sc1070sw020 ansible_host=10.113.159.31
+sc1070sw021 ansible_host=10.113.159.30
+sc1070sw050 ansible_host=10.113.159.24
+
+[ag1071:children]
+ag1071_1
+ag1071_1_cisco
+
+[ag1071_1]
+sc1071sw150 ansible_host=10.112.196.31
+sc1071sw151 ansible_host=10.112.196.30
+sc1071sw152 ansible_host=10.112.196.29
+
+[ag1071_1_cisco]
+sc1071sw050 ansible_host=10.112.196.24
+
+[ag1073]
+sc1073sw150 ansible_host=10.112.98.31
+sc1073sw151 ansible_host=10.112.98.30
+sc1073sw152 ansible_host=10.112.98.29
+sc1073sw199 ansible_host=10.112.98.24
+
+[ag1074]
+sc1074sw020 ansible_host=10.114.86.31
+sc1074sw021 ansible_host=10.114.86.30
+sc1074sw022 ansible_host=10.114.86.29
+sc1074sw050 ansible_host=10.114.86.24
+
+[ag1075]
+sc1075sw150 ansible_host=10.113.165.31
+sc1075sw151 ansible_host=10.113.165.30
+sc1075sw152 ansible_host=10.113.165.29
+sc1075sw199 ansible_host=10.113.165.24
+
+[ag1077]
+sc1077sw020 ansible_host=10.112.202.31
+sc1077sw021 ansible_host=10.112.202.30
+sc1077sw050 ansible_host=10.112.202.24
+
+[ag1078]
+sc1078sw150 ansible_host=10.112.116.31
+sc1078sw151 ansible_host=10.112.116.30
+sc1078sw152 ansible_host=10.112.116.29
+sc1078sw199 ansible_host=10.112.116.24
+
+[ag1079]
+sc1079sw150 ansible_host=10.113.174.31
+sc1079sw151 ansible_host=10.113.174.30
+sc1079sw199 ansible_host=10.113.174.24
+
+[ag1080]
+sc1080sw020 ansible_host=10.112.205.31
+sc1080sw021 ansible_host=10.112.205.30
+sc1080sw050 ansible_host=10.112.205.24
+
+[ag1081]
+sc1081sw020 ansible_host=10.113.132.31
+sc1081sw021 ansible_host=10.113.132.30
+sc1081sw022 ansible_host=10.113.132.29
+sc1081sw050 ansible_host=10.113.132.24
+
+[ag1082]
+sc1082sw020 ansible_host=10.113.208.31
+sc1082sw021 ansible_host=10.113.208.30
+sc1082sw050 ansible_host=10.113.208.24
+
+[ag1084:children]
+ag1084_1
+ag1084_2
+
+[ag1084_1]
+sc1084sw020 ansible_host=10.113.186.31
+sc1084sw021 ansible_host=10.113.186.30
+sc1084sw050 ansible_host=10.113.186.24
+
+[ag1084_2]
+sc1084sw100 ansible_host=10.113.187.2
+
+[ag1085]
+sc1085sw020 ansible_host=10.112.226.31
+sc1085sw021 ansible_host=10.112.226.30
+sc1085sw050 ansible_host=10.112.226.24
+
+[ag1096]
+sc1096sw020 ansible_host=10.115.202.31
+sc1096sw021 ansible_host=10.115.202.30
+
+[ag1102]
+sc1102sw150 ansible_host=10.112.107.31
+sc1102sw151 ansible_host=10.112.107.30
+sc1102sw152 ansible_host=10.112.107.29
+sc1102sw159 ansible_host=10.112.107.24
+
+[ag1348:children]
+ag1348_1
+ag1348_2
+
+[ag1348_1]
+sc1348sw150 ansible_host=10.112.71.31
+sc1348sw151 ansible_host=10.112.71.30
+sc1348sw152 ansible_host=10.112.71.29
+sc1348sw153 ansible_host=10.112.71.28
+sc1348sw154 ansible_host=10.112.71.27
+sc1348sw199 ansible_host=10.112.71.24
+
+[ag1348_2]
+sc1348sw100 ansible_host=10.115.73.31
+
+[ag1420]
+sc1420sw020 ansible_host=10.115.199.31
+sc1420sw021 ansible_host=10.115.199.30
+sc1420sw050 ansible_host=10.115.199.24
+
+[ag1499]
+sc1499sw020 ansible_host=10.115.205.31
+sc1499sw021 ansible_host=10.115.205.30
+
+[ag1544]
+sc1544sw150 ansible_host=10.113.226.31
+sc1544sw151 ansible_host=10.113.226.30
+sc1544sw152 ansible_host=10.113.226.29
+sc1544sw199 ansible_host=10.113.226.24
+
+[ag1554:children]
+ag1554_1
+ag1554_1_cisco
+
+[ag1554_1]
+sc1554sw151 ansible_host=10.114.68.30
+sc1554sw152 ansible_host=10.114.68.29
+sc1554sw153 ansible_host=10.114.68.28
+sc1554sw199 ansible_host=10.114.68.24
+
+[ag1554_1_cisco]
+sc1554sw020 ansible_host=10.114.68.31
+
+[ag1555]
+sc1555sw150 ansible_host=10.112.83.31
+sc1555sw151 ansible_host=10.112.83.30
+sc1555sw152 ansible_host=10.112.83.29
+sc1555sw199 ansible_host=10.112.83.24
+
+[ag1637]
+sc1637sw150 ansible_host=10.114.71.31
+sc1637sw151 ansible_host=10.114.71.30
+sc1637sw152 ansible_host=10.114.71.29
+sc1637sw153 ansible_host=10.114.71.28
+sc1637sw199 ansible_host=10.114.71.24
+
+[ag1638:children]
+ag1638_1
+ag1638_1_cisco
+
+[ag1638_1]
+sc1638sw150 ansible_host=10.112.89.31
+sc1638sw151 ansible_host=10.112.89.30
+sc1637sw152 ansible_host=10.112.89.29
+sc1637sw153 ansible_host=10.112.89.28
+
+[ag1638_1_cisco]
+sc1638sw050 ansible_host=10.112.89.24
+
+[ag1660]
+sc1660sw150 ansible_host=10.113.229.31
+sc1660sw151 ansible_host=10.113.229.30
+sc1660sw152 ansible_host=10.113.229.29
+sc1660sw153 ansible_host=10.113.229.28
+sc1660sw199 ansible_host=10.113.229.24
+
+[ag1662]
+sc1662sw150 ansible_host=10.113.153.31
+sc1662sw151 ansible_host=10.113.153.30
+sc1662sw152 ansible_host=10.113.153.29
+sc1662sw153 ansible_host=10.113.153.28
+sc1662sw199 ansible_host=10.113.153.24
+sc6290sw150 ansible_host=10.113.154.31
+
+[ag1663]
+sc1663sw150 ansible_host=10.113.202.31
+sc1663sw151 ansible_host=10.113.202.30
+sc1663sw152 ansible_host=10.113.202.29
+sc1663sw199 ansible_host=10.113.202.24
+
+[ag1782]
+sc1782sw020 ansible_host=10.114.80.31
+sc1782sw021 ansible_host=10.114.80.30
+
+[ag1784:children]
+ag1784_1
+ag1784_2
+
+[ag1784_1]
+sc1784sw150 ansible_host=10.112.129.31
+sc1784sw151 ansible_host=10.112.129.30
+sc1784sw152 ansible_host=10.112.129.29
+sc1784sw153 ansible_host=10.112.129.28
+sc1784sw199 ansible_host=10.112.129.24
+
+[ag1784_2]
+sc1784sw100 ansible_host=10.112.130.2
+
+[ag1785]
+sc1785sw150 ansible_host=10.113.193.31
+sc1785sw151 ansible_host=10.113.193.30
+sc1785sw152 ansible_host=10.113.193.29
+sc1785sw199 ansible_host=10.113.193.24
+
+[ag1788]
+sc1788sw020 ansible_host=10.113.171.31
+sc1788sw021 ansible_host=10.113.171.30
+sc1788sw050 ansible_host=10.113.171.24
+
+[ag1791]
+sc1791sw150 ansible_host=10.113.214.31
+sc1791sw151 ansible_host=10.113.214.30
+sc1791sw152 ansible_host=10.113.214.29
+sc1791sw199 ansible_host=10.113.214.24
+
+[ag1792]
+sc1792sw150 ansible_host=10.113.247.31
+sc1792sw151 ansible_host=10.113.247.30
+sc1792sw199 ansible_host=10.113.247.24
+
+[ag1795]
+sc1795sw150 ansible_host=10.112.141.31
+sc1795sw151 ansible_host=10.112.141.30
+sc1795sw152 ansible_host=10.112.141.29
+sc1795sw199 ansible_host=10.112.141.24
+
+[ag1868]
+sc1868sw150 ansible_host=10.112.86.31
+sc1868sw151 ansible_host=10.112.86.30
+sc1868sw152 ansible_host=10.112.86.29
+sc1868sw153 ansible_host=10.112.86.28
+sc1868sw199 ansible_host=10.112.86.24
+
+[ag1873]
+sc1873sw150 ansible_host=10.112.101.31
+sc1873sw151 ansible_host=10.112.101.30
+sc1873sw152 ansible_host=10.112.101.29
+sc1873sw153 ansible_host=10.112.101.28
+sc1873sw199 ansible_host=10.112.101.24
+
+[ag1874]
+sc1874sw150 ansible_host=10.112.77.31
+sc1874sw151 ansible_host=10.112.77.30
+sc1874sw152 ansible_host=10.112.77.29
+sc1874sw199 ansible_host=10.112.77.24
+
+[ag1875]
+sc1875sw150 ansible_host=10.112.113.31
+sc1875sw151 ansible_host=10.112.113.30
+sc1875sw152 ansible_host=10.112.113.29
+sc1875sw153 ansible_host=10.112.113.28
+sc1875sw199 ansible_host=10.112.113.24
+
+[ag1877:children]
+ag1877_1
+ag1877_2
+
+[ag1877_1]
+sc1877sw150 ansible_host=10.112.119.31
+sc1877sw151 ansible_host=10.112.119.30
+sc1877sw152 ansible_host=10.112.119.29
+sc1877sw153 ansible_host=10.112.119.28
+sc1877sw154 ansible_host=10.112.119.27
+sc1877sw155 ansible_host=10.112.119.26
+sc1877sw156 ansible_host=10.112.119.25
+sc1877sw157 ansible_host=10.112.119.23
+sc1877sw199 ansible_host=10.112.119.24
+
+[ag1877_2]
+sc1877sw100 ansible_host=10.113.33.31
+
+[ag1879]
+sc1879sw150 ansible_host=10.112.138.31
+sc1879sw151 ansible_host=10.112.138.30
+sc1879sw152 ansible_host=10.112.138.29
+sc1879sw199 ansible_host=10.112.138.24
+
+[ag1880]
+sc1880sw020 ansible_host=10.113.241.31
+sc1880sw021 ansible_host=10.113.241.30
+sc1880sw022 ansible_host=10.113.241.29
+
+[ag1881]
+sc1881sw020 ansible_host=10.112.208.31
+sc1881sw021 ansible_host=10.112.208.30
+
+[ag1884]
+sc1884sw020 ansible_host=10.112.214.31
+sc1884sw021 ansible_host=10.112.214.30
+sc1884sw050 ansible_host=10.112.214.24
+
+[ag1885]
+sc1885sw020 ansible_host=10.112.217.31
+sc1885sw021 ansible_host=10.112.217.30
+sc1885sw050 ansible_host=10.112.217.24
+
+[ag1896]
+sc1896sw150 ansible_host=10.112.150.31
+sc1896sw151 ansible_host=10.112.150.30
+sc1896sw152 ansible_host=10.112.150.29
+sc1896sw199 ansible_host=10.112.150.24
+
+[ag1897:children]
+ag1897_1
+ag1897_2
+
+[ag1897_1]
+sc1897sw150 ansible_host=10.113.250.31
+sc1897sw151 ansible_host=10.113.250.30
+sc1897sw152 ansible_host=10.113.250.29
+sc1897sw153 ansible_host=10.113.250.28
+sc1897sw154 ansible_host=10.113.250.27
+sc1897sw199 ansible_host=10.113.250.24
+
+[ag1897_2]
+sc1897sw100 ansible_host=10.113.251.31
+
+[ag1924]
+sc1924sw150 ansible_host=10.113.220.31
+sc1924sw151 ansible_host=10.113.220.30
+sc1924sw152 ansible_host=10.113.220.29
+sc1924sw153 ansible_host=10.113.220.28
+sc1924sw199 ansible_host=10.113.220.24
+
+[ag2149]
+sc2149sw020 ansible_host=10.115.217.31
+sc2149sw021 ansible_host=10.115.217.30
+sc2149sw050 ansible_host=10.115.217.24
+
+[ag2225]
+sc2225sw020 ansible_host=10.115.220.31
+sc2225sw021 ansible_host=10.115.220.30
+sc2225sw022 ansible_host=10.115.220.29
+sc2225sw050 ansible_host=10.115.220.24
+
+[ag2358]
+sc2358sw150 ansible_host=10.113.253.31
+
+[ag2362]
+sc2362sw020 ansible_host=10.113.162.31
+sc2362sw021 ansible_host=10.113.162.30
+sc2362sw050 ansible_host=10.113.162.24
+
+[ag2369]
+sc2369sw020 ansible_host=10.113.195.31
+
+[ag2370]
+sc2370sw150 ansible_host=10.112.162.31
+sc2370sw151 ansible_host=10.112.162.30
+
+[ag2374]
+sc2374sw150 ansible_host=10.113.232.31
+sc2374sw151 ansible_host=10.113.232.30
+sc2374sw152 ansible_host=10.113.232.29
+sc2374sw199 ansible_host=10.113.232.24
+
+[ag2375:children]
+ag2375_1
+ag2375_2
+
+[ag2375_1]
+sc2375sw020 ansible_host=10.112.174.31
+
+[ag2375_2]
+sc2375sw100 ansible_host=10.112.175.2
+
+[ag2622]
+sc7817sw150 ansible_host=10.112.168.31
+sc7817sw151 ansible_host=10.112.168.30
+sc7692sw150 ansible_host=10.112.168.29
+sc7692sw151 ansible_host=10.112.168.28
+sc6995sw150 ansible_host=10.112.168.27
+sc4269sw150 ansible_host=10.112.168.26
+sc6330sw150 ansible_host=10.112.168.25
+sc6330sw151 ansible_host=10.112.168.24
+sc6330sw152 ansible_host=10.112.168.23
+sc6330sw153 ansible_host=10.112.168.22
+
+[ag2623]
+sc2623sw150 ansible_host=10.112.178.31
+sc2623sw151 ansible_host=10.112.178.30
+sc2623sw152 ansible_host=10.112.178.29
+sc2623sw153 ansible_host=10.112.178.28
+sc2623sw155 ansible_host=10.112.178.26
+sc2623sw156 ansible_host=10.112.178.25
+sc2623sw157 ansible_host=10.112.178.24
+sc3936sw150 ansible_host=10.113.15.31
+sc4313sw150 ansible_host=10.115.223.31
+
+[ag2625:children]
+ag2625_1
+ag2625_1_cisco
+ag2625_1_gitecct
+ag2625_2
+ag2625_2_cisco
+
+[ag2625_1]
+sc2625sw150 ansible_host=10.112.40.10
+sc2625sw151 ansible_host=10.112.40.11
+sc2625sw152 ansible_host=10.112.40.12
+sc2625sw153 ansible_host=10.112.40.13
+sc2625sw154 ansible_host=10.112.40.14
+sc2625sw155 ansible_host=10.112.40.15
+sc2625sw156 ansible_host=10.112.40.16
+sc2625sw157 ansible_host=10.112.40.17
+sc2625sw158 ansible_host=10.112.40.18
+sc2625sw159 ansible_host=10.112.40.19
+sc2625sw160 ansible_host=10.112.40.20
+sc2625sw161 ansible_host=10.112.40.21
+sc2625sw162 ansible_host=10.112.40.22
+sc2625sw163 ansible_host=10.112.40.23
+sc2625sw164 ansible_host=10.112.40.24
+sc2625sw165 ansible_host=10.112.40.25
+sc2625sw166 ansible_host=10.112.40.26
+sc2625sw167 ansible_host=10.112.40.27
+sc2625sw168 ansible_host=10.112.40.28
+sc2625sw169 ansible_host=10.112.40.29
+sc2625sw170 ansible_host=10.112.40.30
+sc2625sw171 ansible_host=10.112.40.31
+sc2625sw172 ansible_host=10.112.40.32
+sc2625sw173 ansible_host=10.112.40.33
+sc2625sw174 ansible_host=10.112.40.34
+sc2625sw176 ansible_host=10.112.40.36
+sc2625sw177 ansible_host=10.112.40.37
+sc2625sw178 ansible_host=10.112.40.38
+sc2625sw179 ansible_host=10.112.40.39
+sc2625sw180 ansible_host=10.112.40.40
+sc2625sw181 ansible_host=10.112.40.41
+sc2625sw182 ansible_host=10.112.40.42
+sc2625sw183 ansible_host=10.112.40.43
+sc2625sw184 ansible_host=10.112.40.44
+sc2625sw185 ansible_host=10.112.40.45
+sc2625sw186 ansible_host=10.112.40.46
+sc2625sw187 ansible_host=10.112.40.47
+sc2625sw189 ansible_host=10.112.40.49
+sc2625sw190 ansible_host=10.112.40.50
+
+[ag2625_1_gitecct]
+sc2625sw200 ansible_host=10.112.40.200
+sc2625sw201 ansible_host=10.112.40.201
+sc2625sw202 ansible_host=10.112.40.202
+
+[ag2625_1_cisco]
+sc2625sw100 ansible_host=10.112.20.16
+
+[ag2625_2] #CESET
+sc7067sw150 ansible_host=10.112.8.31
+sc7067sw151 ansible_host=10.112.8.30
+sc7067sw152 ansible_host=10.112.8.28
+sc7067sw154 ansible_host=10.112.8.27
+sc7067sw155 ansible_host=10.112.8.25
+sc7067sw156 ansible_host=10.112.8.24
+
+[ag2625_2_cisco]
+sc7067sw002 ansible_host=10.112.8.26
+
+[ag2626]
+sc7820sw150 ansible_host=10.113.109.29
+sc7820sw151 ansible_host=10.113.109.28
+sc6292sw150 ansible_host=10.113.109.27
+sc6292sw151 ansible_host=10.113.109.26
+sc6292sw152 ansible_host=10.113.109.25
+sc6292sw153 ansible_host=10.113.109.24
+sc4271sw150 ansible_host=10.113.109.20
+
+[ag2705]
+sc2705sw020 ansible_host=10.112.229.31
+
+[ag2707]
+sc2707sw020 ansible_host=10.114.92.31
+
+[ag2714]
+sc2714sw020 ansible_host=10.114.95.31
+
+[ag2775]
+sc2775sw020 ansible_host=10.114.98.31
+sc2775sw021 ansible_host=10.114.98.30
+sc2775sw050 ansible_host=10.114.98.24
+
+[ag2815]
+sc2815sw020 ansible_host=10.114.116.31
+sc2815sw021 ansible_host=10.114.116.30
+sc2815sw050 ansible_host=10.114.116.24
+
+[ag2816]
+sc2816sw150 ansible_host=10.114.110.31
+sc2816sw151 ansible_host=10.114.110.30
+sc2816sw199 ansible_host=10.114.110.24
+
+[ag2845]
+sc2845sw020 ansible_host=10.114.101.31
+
+[ag2891]
+sc2891sw020 ansible_host=10.114.122.31
+sc2891sw021 ansible_host=10.114.122.30
+sc2891sw050 ansible_host=10.114.122.24
+
+[ag2892]
+sc2892sw150 ansible_host=10.114.125.31
+sc2892sw151 ansible_host=10.114.125.30
+sc2892sw199 ansible_host=10.114.125.24
+
+[ag2894]
+sc2894sw150 ansible_host=10.112.247.31
+sc2894sw151 ansible_host=10.112.247.30
+sc2894sw199 ansible_host=10.112.247.24
+
+[ag2896]
+sc2896sw150 ansible_host=10.112.250.31
+sc2896sw151 ansible_host=10.112.250.30
+sc2896sw199 ansible_host=10.112.250.24
+
+[ag2979]
+sc2979sw150 ansible_host=10.113.235.31
+sc2979sw151 ansible_host=10.113.235.30
+sc2979sw152 ansible_host=10.113.235.29
+sc2979sw199 ansible_host=10.113.235.24
+
+[ag3077]
+sc3077sw150 ansible_host=10.113.74.31
+sc3077sw151 ansible_host=10.113.74.30
+sc3077sw152 ansible_host=10.113.74.29
+sc3077sw199 ansible_host=10.113.74.24
+
+[ag3078:children]
+ag3078_1
+ag3078_2
+ag3078_3
+
+[ag3078_1]
+sc3078sw150 ansible_host=10.112.92.31
+sc3078sw151 ansible_host=10.112.92.30
+sc3078sw152 ansible_host=10.112.92.29
+sc3078sw153 ansible_host=10.112.92.28
+sc3078sw154 ansible_host=10.112.92.27
+sc3078sw199 ansible_host=10.112.92.24
+
+[ag3078_2]
+sc3078sw100 ansible_host=10.112.156.31
+
+[ag3078_3]
+sc3078sw101 ansible_host=10.112.238.31
+
+[ag3082]
+sc3082sw020 ansible_host=10.113.80.31
+sc3082sw021 ansible_host=10.113.80.30
+sc3082sw050 ansible_host=10.113.80.24
+
+[ag3130]
+sc3130sw150 ansible_host=10.113.77.31
+sc3130sw151 ansible_host=10.113.77.30
+sc3130sw152 ansible_host=10.113.77.29
+sc3130sw199 ansible_host=10.113.77.24
+
+[ag3160]
+sc3160sw020 ansible_host=10.113.43.31
+sc3160sw021 ansible_host=10.113.43.30
+sc3160sw050 ansible_host=10.113.43.24
+
+[ag3282]
+sc3282sw020 ansible_host=10.114.129.31
+sc3282sw021 ansible_host=10.114.129.30
+sc3282sw022 ansible_host=10.114.129.29
+sc3282sw050 ansible_host=10.114.129.24
+
+[ag3298]
+sc3298sw150 ansible_host=10.112.253.31
+sc3298sw151 ansible_host=10.112.253.30
+sc3298sw152 ansible_host=10.112.253.29
+sc3298sw199 ansible_host=10.112.253.24
+
+[ag3299]
+sc3299sw150 ansible_host=10.112.125.31
+sc3299sw151 ansible_host=10.112.125.30
+sc3299sw152 ansible_host=10.112.125.29
+sc3299sw199 ansible_host=10.112.125.24
+
+[ag3364]
+sc3364sw020 ansible_host=10.113.135.31
+sc3364sw021 ansible_host=10.113.135.30
+sc3364sw050 ansible_host=10.113.135.24
+
+[ag3392]
+sc3392sw150 ansible_host=10.112.65.31
+sc3392sw151 ansible_host=10.112.65.30
+sc3392sw152 ansible_host=10.112.65.29
+sc3392sw199 ansible_host=10.112.65.24
+
+[ag3407]
+sc3407sw020 ansible_host=10.112.232.31
+sc3407sw021 ansible_host=10.112.232.30
+sc3407sw050 ansible_host=10.112.232.24
+
+[ag3415]
+sc3415sw020 ansible_host=10.112.171.31
+sc3415sw021 ansible_host=10.112.171.30
+sc3415sw050 ansible_host=10.112.171.24
+
+[ag3521]
+sc3521sw020 ansible_host=10.112.180.31
+sc3521sw021 ansible_host=10.112.180.30
+sc3521sw022 ansible_host=10.112.180.29
+sc3521sw050 ansible_host=10.112.180.24
+
+[ag3522]
+sc3522sw020 ansible_host=10.112.244.31
+sc3522sw021 ansible_host=10.112.244.30
+sc3522sw050 ansible_host=10.112.244.24
+
+[ag3523]
+sc3523sw150 ansible_host=10.115.68.31
+sc3523sw151 ansible_host=10.115.68.30
+sc3523sw152 ansible_host=10.115.68.29
+sc3523sw199 ansible_host=10.115.68.24
+
+[ag3524]
+sc3524sw020 ansible_host=10.112.235.31
+sc3524sw021 ansible_host=10.112.235.30
+sc3524sw022 ansible_host=10.112.235.29
+sc3524sw050 ansible_host=10.112.235.24
+
+[ag3525]
+sc3525sw020 ansible_host=10.115.211.31
+sc3525sw021 ansible_host=10.115.211.30
+sc3525sw022 ansible_host=10.115.211.29
+sc3525sw023 ansible_host=10.115.211.28
+sc3525sw024 ansible_host=10.115.211.27
+sc3525sw050 ansible_host=10.115.211.24
+
+[ag3533]
+sc3533sw020 ansible_host=10.112.186.31
+sc3533sw021 ansible_host=10.112.186.30
+sc3533sw022 ansible_host=10.112.186.29
+sc3533sw050 ansible_host=10.112.186.24
+
+[ag3554]
+sc3554sw020 ansible_host=10.112.165.31
+sc3554sw021 ansible_host=10.112.165.30
+
+[ag3555]
+sc3555sw020 ansible_host=10.113.205.31
+sc3555sw021 ansible_host=10.113.205.30
+sc3555sw050 ansible_host=10.113.205.24
+
+[ag3569]
+sc3569sw020 ansible_host=10.115.65.31
+sc3569sw021 ansible_host=10.115.65.30
+sc3569sw050 ansible_host=10.115.65.24
+
+[ag3592]
+sc3592sw150 ansible_host=10.115.71.31
+sc3592sw151 ansible_host=10.115.71.30
+sc3592sw199 ansible_host=10.115.71.24
+
+[ag3598]
+sc3598sw020 ansible_host=10.113.37.31
+sc3598sw021 ansible_host=10.113.37.30
+sc3598sw050 ansible_host=10.113.37.24
+
+[ag3614]
+sc3614sw020 ansible_host=10.113.83.31
+sc3614sw021 ansible_host=10.113.83.30
+sc3614sw050 ansible_host=10.113.83.24
+
+[ag3646]
+sc3646sw020 ansible_host=10.113.22.31
+sc3646sw021 ansible_host=10.113.22.30
+sc3646sw050 ansible_host=10.113.22.24
+
+[ag3655:children]
+ag3655_1
+ag3655_1_cisco
+
+[ag3655_1]
+sc3655sw150 ansible_host=10.113.92.31
+
+[ag3655_1_cisco]
+sc3655sw021 ansible_host=10.113.92.30
+sc3655sw050 ansible_host=10.113.92.24
+
+[ag3660]
+sc3660sw020 ansible_host=10.113.101.31
+sc3660sw021 ansible_host=10.113.101.30
+sc3660sw050 ansible_host=10.113.101.24
+
+[ag3684]
+sc3684sw020 ansible_host=10.113.107.31
+sc3684sw021 ansible_host=10.113.107.30
+sc3684sw050 ansible_host=10.113.107.24
+
+[ag3691]
+sc3691sw020 ansible_host=10.113.116.31
+sc3691sw021 ansible_host=10.113.116.30
+sc3691sw050 ansible_host=10.113.116.24
+
+[ag3692]
+sc3692sw020 ansible_host=10.113.113.31
+sc3692sw021 ansible_host=10.113.113.30
+sc3692sw050 ansible_host=10.113.113.24
+
+[ag3778]
+sc3778sw020 ansible_host=10.113.98.31
+sc3778sw021 ansible_host=10.113.98.30
+sc3778sw050 ansible_host=10.113.98.24
+
+[ag3830]
+sc3830sw020 ansible_host=10.113.95.31
+sc3830sw021 ansible_host=10.113.95.30
+sc3830sw022 ansible_host=10.113.95.29
+sc3830sw050 ansible_host=10.113.95.24
+
+[ag3831]
+sc3831sw020 ansible_host=10.113.104.31
+sc3831sw021 ansible_host=10.113.104.30
+sc3831sw050 ansible_host=10.113.104.24
+
+[ag3833]
+sc3833sw020 ansible_host=10.113.119.31
+sc3833sw021 ansible_host=10.113.119.30
+sc3833sw050 ansible_host=10.113.119.24
+
+[ag3850]
+sc3850sw020 ansible_host=10.115.147.31
+sc3850sw021 ansible_host=10.115.147.30
+sc3850sw050 ansible_host=10.115.147.24
+
+[ag3869]
+sc3869sw020 ansible_host=10.115.116.31
+sc3869sw021 ansible_host=10.115.116.30
+sc3869sw050 ansible_host=10.115.116.24
+
+[ag3875]
+sc3875sw020 ansible_host=10.115.180.31
+sc3875sw021 ansible_host=10.115.180.30
+sc3875sw050 ansible_host=10.115.180.24
+
+[ag3885]
+sc3885sw020 ansible_host=10.113.25.31
+sc3885sw021 ansible_host=10.113.25.30
+sc3885sw050 ansible_host=10.113.25.24
+
+[ag3886]
+sc3886sw020 ansible_host=10.113.122.31
+sc3886sw021 ansible_host=10.113.122.30
+sc3886sw050 ansible_host=10.113.122.24
+
+[ag3919]
+sc3919sw020 ansible_host=10.112.241.31
+
+[ag3954]
+sc3954sw150 ansible_host=10.113.223.31
+
+[ag4029]
+sc4029sw150 ansible_host=10.113.147.31
+
+[ag4123]
+sc4123sw150 ansible_host=10.114.74.31
+sc4123sw151 ansible_host=10.114.74.30
+sc4123sw152 ansible_host=10.114.74.29
+sc4123sw199 ansible_host=10.114.74.24
+
+[ag4332]
+sc4332sw020 ansible_host=10.113.125.31
+sc4332sw021 ansible_host=10.113.125.30
+sc4332sw050 ansible_host=10.113.125.24
+
+[ag4438]
+sc4438sw020 ansible_host=10.115.122.31
+sc4438sw021 ansible_host=10.115.122.30
+
+[ag4439]
+sc4439sw020 ansible_host=10.113.28.31
+sc4439sw021 ansible_host=10.113.28.30
+
+[ag4440]
+sc4440sw020 ansible_host=10.115.156.31
+sc4440sw021 ansible_host=10.115.156.30
+sc4440sw050 ansible_host=10.115.156.24
+
+[ag4441]
+sc4441sw020 ansible_host=10.115.174.31
+sc4441sw021 ansible_host=10.115.174.30
+sc4441sw050 ansible_host=10.115.174.24
+
+[ag4444]
+sc4444sw150 ansible_host=10.114.119.31
+sc4444sw151 ansible_host=10.114.119.30
+sc4444sw199 ansible_host=10.114.119.24
+
+[ag4451]
+sc4451sw020 ansible_host=10.115.119.31
+sc4451sw021 ansible_host=10.115.119.30
+sc4451sw050 ansible_host=10.115.119.24
+
+[ag4452]
+sc4452sw020 ansible_host=10.115.125.31
+sc4452sw021 ansible_host=10.115.125.30
+
+[ag4453]
+sc4453sw020 ansible_host=10.115.138.31
+sc4453sw021 ansible_host=10.115.138.30
+
+[ag4624]
+sc4624sw020 ansible_host=10.115.132.31
+sc4624sw021 ansible_host=10.115.132.30
+
+[ag4625]
+sc4625sw020 ansible_host=10.115.208.31
+sc4625sw021 ansible_host=10.115.208.30
+sc4625sw050 ansible_host=10.115.208.24
+
+[ag4626]
+sc4626sw020 ansible_host=10.113.40.31
+sc4626sw021 ansible_host=10.113.40.30
+
+[ag4721]
+sc4721sw020 ansible_host=10.115.196.31
+sc4721sw021 ansible_host=10.115.196.30
+sc4721sw050 ansible_host=10.115.196.24
+
+[ag4728]
+sc4728sw020 ansible_host=10.115.165.31
+sc4728sw021 ansible_host=10.115.165.30
+sc4728sw050 ansible_host=10.115.165.24
+
+[ag4729]
+sc4729sw020 ansible_host=10.115.153.31
+sc4729sw021 ansible_host=10.115.153.30
+sc4729sw050 ansible_host=10.115.153.24
+
+[ag4733]
+sc4733sw020 ansible_host=10.115.129.31
+sc4733sw021 ansible_host=10.115.129.30
+sc4733sw050 ansible_host=10.115.129.24
+
+[ag4873]
+sc4873sw020 ansible_host=10.115.135.31
+sc4873sw021 ansible_host=10.115.135.30
+sc4873sw050 ansible_host=10.115.135.24
+
+[ag4876]
+sc4876sw020 ansible_host=10.115.193.31
+sc4876sw021 ansible_host=10.115.193.30
+sc4876sw050 ansible_host=10.115.193.24
+
+[ag4877]
+sc4877sw020 ansible_host=10.115.150.31
+sc4877sw021 ansible_host=10.115.150.30
+sc4877sw050 ansible_host=10.115.150.24
+
+[ag4878]
+sc4878sw020 ansible_host=10.115.144.31
+sc4878sw021 ansible_host=10.115.144.30
+sc4878sw050 ansible_host=10.115.144.24
+
+[ag4918]
+sc4918sw020 ansible_host=10.115.141.31
+sc4918sw021 ansible_host=10.115.141.30
+sc4918sw050 ansible_host=10.115.141.24
+
+[ag4924]
+sc4924sw020 ansible_host=10.115.162.31
+sc4924sw021 ansible_host=10.115.162.30
+sc4924sw050 ansible_host=10.115.162.24
+
+
+
+# SWITCH GROUPS
+
+[switches_huawei:children]
+ag0408
+ag0409
+ag0410_1
+ag0411_1
+ag0412
+ag0413
+ag0414
+ag0415_1
+ag0416_1
+ag0417_1
+ag0418
+ag0419
+ag0420_1
+ag0421
+ag0423
+ag0425_1
+ag0426
+ag0427
+ag0572
+ag0627
+ag0628
+ag0701
+ag0702
+ag0796_1
+ag0809
+ag0852
+ag0878
+ag0879
+ag0921_1
+ag1011
+ag1071_1
+ag1073
+ag1075
+ag1078
+ag1079
+ag1102
+ag1348_1
+ag1544
+ag1554_1
+ag1555
+ag1637
+ag1638_1
+ag1660
+ag1662
+ag1663
+ag1784_1
+ag1785
+ag1791
+ag1792
+ag1795
+ag1868
+ag1873
+ag1874
+ag1875
+ag1877_1
+ag1879
+ag1896
+ag1897_1
+ag1924
+ag2358
+ag2374
+ag2622
+ag2623
+ag2625_1
+ag2625_1_gitecct
+ag2625_2
+ag2626
+ag2816
+ag2892
+ag2894
+ag2896
+ag2979
+ag3077
+ag3078_1
+ag3130
+ag3298
+ag3299
+ag3392
+ag3523
+ag3592
+ag3655_1
+ag3954
+ag4029
+ag4123
+ag4444
+
+[switches_cisco:children]
+ag0019
+ag0410_2
+ag0410_3
+ag0411_2
+ag0415_2
+ag0415_4
+ag0417_2
+ag0420_2
+ag0422
+ag0424
+ag0425_1_cisco
+ag0535
+ag0547
+ag0549
+ag0571
+ag0580
+ag0796_1_cisco
+ag0851
+ag0853
+ag0921_2
+ag1070
+ag1071_1_cisco
+ag1074
+ag1077
+ag1080
+ag1081
+ag1082
+ag1084
+ag1085
+ag1096
+ag1348_2
+ag1420
+ag1499
+ag1554_1_cisco
+ag1638_1_cisco
+ag1782
+ag1784_2
+ag1788
+ag1877_2
+ag1880
+ag1881
+ag1884
+ag1885
+ag1897_2
+ag2149
+ag2225
+ag2362
+ag2375_1
+ag2375_2
+ag2625_1_cisco
+ag2625_2_cisco
+ag2705
+ag2707
+ag2714
+ag2775
+ag2815
+ag2891
+ag3078_2
+ag3078_3
+ag3082
+ag3160
+ag3282
+ag3364
+ag3407
+ag3415
+ag3521
+ag3522
+ag3524
+ag3525
+ag3533
+ag3554
+ag3555
+ag3569
+ag3598
+ag3614
+ag3646
+ag3655_1_cisco
+ag3660
+ag3684
+ag3691
+ag3692
+ag3778
+ag3830
+ag3831
+ag3833
+ag3850
+ag3869
+ag3875
+ag3885
+ag3886
+ag3919
+ag4332
+ag4438
+ag4439
+ag4440
+ag4441
+ag4451
+ag4452
+ag4453
+ag4624
+ag4625
+ag4626
+ag4721
+ag4728
+ag4729
+ag4733
+ag4873
+ag4876
+ag4877
+ag4878
+ag4918
+ag4924
