@@ -1,0 +1,17 @@
+---
+- hosts: localhost
+  roles:
+    - create-directory-router
+    - create-directory-switch
+
+- hosts: routers_huawei
+  roles:
+    - backup-routers-huawei
+
+- hosts: switches_huawei
+  roles:
+    - backup-switches-huawei
+
+- hosts: switches_cisco
+  roles:
+    - backup-switches-cisco

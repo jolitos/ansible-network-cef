@@ -1,0 +1,25 @@
+---
+### COLETA MODELO E Nº SÉRIE - João Vitor Costa Medeiros
+
+- name: Coleta Dados
+  hosts: SC0019RA1
+  gather_facts: false
+
+  tasks:
+    - name: Coleta Informações do roteador Huawei.
+      ce_facts:
+        gather_subset: interfaces
+
+    - name: Aloca variável.
+      set_fact:
+        Lo0: "{{ all_ipv4_addresses.LoopBack0 | ipaddr('address') }}"
+        Vlan10: "{{ all_ipv4_addresses['GigabitEthernet0/0/0.10'] | ipaddr('address') }}"
+        Vlan759: "{{ all_ipv4_addresses['GigabitEthernet0/0/0.759'] | ipaddr('broadcast') }}"
+
+    - name: Salvar template
+      template:
+        src: /mnt/c/modelo.txt.j2
+        dest: /mnt/c/{{ inventory_hostname }}.txt
+        owner: root
+        group: root
+        mode: '0644'
