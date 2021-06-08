@@ -251,7 +251,6 @@ sc0410sw101 ansible_host=10.113.184.18
 
 [ag0411:children]
 ag0411_1
-ag0411_2
 
 [ag0411_1]
 sc0411sw150 ansible_host=10.113.217.31
@@ -261,9 +260,6 @@ sc0411sw153 ansible_host=10.113.217.28
 sc0411sw154 ansible_host=10.113.217.27
 sc0411sw155 ansible_host=10.113.217.26
 sc0411sw199 ansible_host=10.113.217.24
-
-[ag0411_2]
-sc0411sw100 ansible_host=10.115.77.2
 
 [ag0412:children]
 ag0412_1
@@ -1535,7 +1531,6 @@ ag4444
 ag0019
 ag0410_2
 ag0410_3
-ag0411_2
 ag0415_2
 ag0415_4
 ag0417_2
