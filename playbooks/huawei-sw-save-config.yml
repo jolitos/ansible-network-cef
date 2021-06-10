@@ -1,0 +1,4 @@
+---
+- hosts: switches_huawei
+  roles:
+    - huawei-sw-save-config

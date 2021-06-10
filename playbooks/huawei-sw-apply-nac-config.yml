@@ -1,0 +1,5 @@
+---
+- hosts: switches_huawei
+  roles:
+    - huawei-sw-apply-nac-config
+    - huawei-sw-save-config

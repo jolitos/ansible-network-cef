@@ -1,0 +1,3 @@
+---
+# tasks file for huawei-sw-apply-nac-config
+- include: huawei-sw-apply-nac-config.yml

@@ -1,0 +1,5 @@
+---
+# Save Running Config task
+- name: Save running-config - Switch Huawei S5700
+  ce_config:
+    save: yes

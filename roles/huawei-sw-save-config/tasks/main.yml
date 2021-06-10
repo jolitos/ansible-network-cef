@@ -1,0 +1,3 @@
+---
+# tasks file for huawei-sw-save-config
+- include: save-config-huawei-sw.yml
