@@ -1,0 +1,17 @@
+---
+### COLETA DADOS - João Vitor Costa Medeiros
+- name: Coleta versão do software do switch Huawei S5700.
+  hosts: switches_huawei
+  gather_facts: false
+
+  tasks:
+    - name: Insere o comando "display current-configuration | include !Software"
+      cli_command:
+        command: dis cur | inc !Software
+      register: config
+
+    - name: Mostra o modelo e número de série do equipamento
+      debug:
+        msg: "{{ config.stdout }}"
+
+

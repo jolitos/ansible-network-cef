@@ -1,0 +1,20 @@
+### ACCESS-LIST SWITCHES HUAWEI - João Vitor Costa Medeiros
+- hosts: sc3077sw199
+  gather_facts: false
+
+  tasks:
+    - name: Corrige ACL do Switch Huawei S5700
+      ce_command:
+        commands:
+          - system-view
+          - acl number 2002
+          - rule 0 permit source 10.1.32.18 0
+          - rule 1 permit source 10.0.240.136 0
+          - rule 2 permit source 10.0.240.137 0
+          - rule 3 permit source 10.123.11.35 0
+          - rule 4 permit source 10.123.20.75 0
+          - rule 5 deny
+
+    - name: Salva as configurações do Switch Huawei S5700
+      ce_config:
+        save: yes

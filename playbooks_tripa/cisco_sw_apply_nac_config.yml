@@ -1,0 +1,11 @@
+### NAC CONRRECTION ON CISCO SWITCHES INTERFACES - João Vitor Costa Medeiros
+- hosts: switches_cisco
+  gather_facts: false
+
+  tasks:
+    - name: Remove NAC Authentication Open in Cisco Switches
+      ios_config:
+        commands:
+          - interface range fastEthernet 0/1 - 24
+          - no authentication open
+        save_when: modified
