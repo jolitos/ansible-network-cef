@@ -742,8 +742,8 @@ sc1662sw150 ansible_host=10.113.153.31
 sc1662sw151 ansible_host=10.113.153.30
 sc1662sw152 ansible_host=10.113.153.29
 sc1662sw153 ansible_host=10.113.153.28
+sc1662sw154 ansible_host=10.113.153.27
 sc1662sw199 ansible_host=10.113.153.24
-sc6290sw150 ansible_host=10.113.154.31
 
 [ag1663]
 sc1663sw150 ansible_host=10.113.202.31
@@ -923,7 +923,7 @@ sc2370sw151 ansible_host=10.112.162.30
 
 [ag2374]
 sc2374sw150 ansible_host=10.113.232.31
-sc2374sw151 ansible_host=10.113.232.30
+#sc2374sw151 ansible_host=10.113.232.30
 sc2374sw152 ansible_host=10.113.232.29
 sc2374sw199 ansible_host=10.113.232.24
 
@@ -944,10 +944,10 @@ sc7692sw150 ansible_host=10.112.168.29
 sc7692sw151 ansible_host=10.112.168.28
 sc6995sw150 ansible_host=10.112.168.27
 sc4269sw150 ansible_host=10.112.168.26
-sc6330sw150 ansible_host=10.112.168.25
-sc6330sw151 ansible_host=10.112.168.24
-sc6330sw152 ansible_host=10.112.168.23
-sc6330sw153 ansible_host=10.112.168.22
+sc4269sw151 ansible_host=10.112.168.25
+sc4269sw152 ansible_host=10.112.168.24
+sc4269sw153 ansible_host=10.112.168.23
+sc4269sw154 ansible_host=10.112.168.22
 
 [ag2623]
 sc2623sw150 ansible_host=10.112.178.31
@@ -962,7 +962,6 @@ sc4313sw150 ansible_host=10.115.223.31
 
 [ag2625:children]
 ag2625_1
-ag2625_1_cisco
 ag2625_1_gitecct
 ag2625_2
 ag2625_2_cisco
@@ -979,15 +978,6 @@ sc2625sw157 ansible_host=10.112.40.17
 sc2625sw158 ansible_host=10.112.40.18
 sc2625sw159 ansible_host=10.112.40.19
 sc2625sw160 ansible_host=10.112.40.20
-sc2625sw161 ansible_host=10.112.40.21
-sc2625sw162 ansible_host=10.112.40.22
-sc2625sw163 ansible_host=10.112.40.23
-sc2625sw164 ansible_host=10.112.40.24
-sc2625sw165 ansible_host=10.112.40.25
-sc2625sw166 ansible_host=10.112.40.26
-sc2625sw167 ansible_host=10.112.40.27
-sc2625sw168 ansible_host=10.112.40.28
-sc2625sw169 ansible_host=10.112.40.29
 sc2625sw170 ansible_host=10.112.40.30
 sc2625sw171 ansible_host=10.112.40.31
 sc2625sw172 ansible_host=10.112.40.32
@@ -1005,16 +995,12 @@ sc2625sw184 ansible_host=10.112.40.44
 sc2625sw185 ansible_host=10.112.40.45
 sc2625sw186 ansible_host=10.112.40.46
 sc2625sw187 ansible_host=10.112.40.47
-sc2625sw189 ansible_host=10.112.40.49
 sc2625sw190 ansible_host=10.112.40.50
 
 [ag2625_1_gitecct]
 sc2625sw200 ansible_host=10.112.40.200
 sc2625sw201 ansible_host=10.112.40.201
 sc2625sw202 ansible_host=10.112.40.202
-
-[ag2625_1_cisco]
-sc2625sw100 ansible_host=10.112.20.16
 
 [ag2625_2] #CESET
 sc7067sw150 ansible_host=10.112.8.31
@@ -1576,7 +1562,6 @@ ag2225
 ag2362
 ag2375_1
 ag2375_2
-ag2625_1_cisco
 ag2625_2_cisco
 ag2705
 ag2707
