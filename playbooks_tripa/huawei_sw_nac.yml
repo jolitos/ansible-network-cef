@@ -7,21 +7,14 @@
       ce_command:
         commands:
           - system-view
-          - aaa
-          - accounting-scheme acco
-          - accounting realtime 1440
-          - quit
-          - #
-          - radius-server template radius-dot1x
-          - radius-server detect-server interval 180
-          - radius-server dead-time 60
-          - radius-server retransmit 4 timeout 10
-          - #
-          - radius-server template radius-mab
-          - radius-server detect-server interval 180
-          - radius-server dead-time 60
-          - radius-server retransmit 4 timeout 10
-          - quit
+          - acl name ISE_RO 2667
+          - rule 16 permit source 10.222.179.200 0
+          - rule 17 permit source 10.123.6.200 0
+          - rule 18 permit source 10.123.48.24 0
+          - rule 19 permit source 10.123.48.25 0
+          - rule 28 permit source 10.222.176.24 0
+          - rule 29 permit source 10.222.176.25 0
+          - rule 100 deny
 
     - name: Save running-config - Switch Huawei S5700
       ce_config:

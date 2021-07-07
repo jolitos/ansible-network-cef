@@ -7,19 +7,16 @@
     - name: Remove ACL dos Switches Cisco 2960
       ios_config:
         commands:
-          - no access-list 2
+          - no ip access-list extended ACL-POSTURE-REDIRECT
 
     - name: Configura ACL dos Switches Cisco 2960
       ios_config:
         commands:
-          - access-list 2 permit 10.0.240.250
-          - access-list 2 permit 10.123.20.75
-          - access-list 2 permit 10.1.32.18
-          - access-list 2 permit 10.112.9.53
-          - access-list 2 permit 10.123.11.35
-          - access-list 2 permit 10.112.4.34
-          - access-list 2 permit 10.112.7.32
-          - access-list 2 permit 10.0.240.136
-          - access-list 2 permit 10.0.240.137
-          - access-list 2 deny any log
+          - ip access-list extended ACL-POSTURE-REDIRECT
+          - deny udp any eq bootpc any eq bootps
+          - deny udp any any eq domain
+          - permit tcp any host 10.222.176.24 eq www
+          - permit tcp any host 10.123.6.200 eq www 
+          - permit tcp any host 72.163.1.80
+          - deny ip any any
         save_when: modified

@@ -1,0 +1,12 @@
+### DHCP ROTEADOR HUAWEI - João Vitor Costa Medeiros
+- hosts: routers_huawei
+  gather_facts: false
+
+  tasks:
+    - name: Update DHCP on Huawei Routers
+      ce_command:
+        commands:
+          - system-view
+          - dhcp server group 1
+          - dhcp-server 10.123.12.41 4
+          - dhcp-server 10.123.12.42 5
