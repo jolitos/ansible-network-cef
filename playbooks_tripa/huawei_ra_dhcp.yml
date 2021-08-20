@@ -8,5 +8,6 @@
         commands:
           - system-view
           - dhcp server group 1
-          - dhcp-server 10.123.12.41 4
-          - dhcp-server 10.123.12.42 5
+          - undo dhcp-server 10.123.11.30
+          - undo dhcp-server 10.123.11.31
+          - quit

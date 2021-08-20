@@ -1,0 +1,21 @@
+---
+### CORRIGE NTP ROUTERS HUAWEI - João Vitor Costa Medeiros
+- hosts: routers_huawei
+  gather_facts: false
+
+  tasks:
+    - name: Corrige NTP Server do Router Huawei AR1220
+      ce_command:
+        commands:
+          - clock timezone EST minus 03:00:00
+          - system-view
+          - undo ntp-service unicast-server 10.112.0.2
+          - undo ntp-service unicast-server 10.112.0.4
+          - undo ntp-service unicast-server 10.112.0.5
+          - undo ntp-service unicast-server 10.112.0.9
+          - ntp-service authentication enable
+          - ntp-service authentication-keyid 10 authentication-mode md5 cipher %^%#Fa/";gs/'I>`j#4Mo$EOif;RA-a4.Tt|Zz/q2L:%%^%#
+          - ntp-service reliable authentication-keyid 10
+          - ntp-service source-interface LoopBack 0
+          - ntp-service unicast-server 10.96.0.6 preference
+          - ntp-service unicast-server 10.96.0.2
