@@ -3,6 +3,6 @@
   roles:
     - create-directory-router
 
-- hosts: SC1784RA1
+- hosts: routers_huawei
   roles:
     - backup-routers-huawei
