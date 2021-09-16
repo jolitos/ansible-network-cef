@@ -1,3 +1,4 @@
+.gitignore
 vault-pass.txt
 group_vars/all.yml
 hosts

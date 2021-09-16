@@ -406,7 +406,7 @@ sc0425sw150 ansible_host=10.113.180.31
 sc0425sw151 ansible_host=10.113.180.30
 sc0425sw152 ansible_host=10.113.180.29
 sc0425sw153 ansible_host=10.113.180.28
-sc0425sw153 ansible_host=10.113.180.24
+sc0425sw199 ansible_host=10.113.180.24
 
 [ag0425_1_cisco]
 sc0425sw020 ansible_host=10.113.180.27
@@ -686,18 +686,12 @@ sc1544sw151 ansible_host=10.113.226.30
 sc1544sw152 ansible_host=10.113.226.29
 sc1544sw199 ansible_host=10.113.226.24
 
-[ag1554:children]
-ag1554_1
-ag1554_1_cisco
-
-[ag1554_1]
+[ag1554]
+sc1554sw150 ansible_host=10.114.68.31
 sc1554sw151 ansible_host=10.114.68.30
 sc1554sw152 ansible_host=10.114.68.29
 sc1554sw153 ansible_host=10.114.68.28
 sc1554sw199 ansible_host=10.114.68.24
-
-[ag1554_1_cisco]
-sc1554sw020 ansible_host=10.114.68.31
 
 [ag1555]
 sc1555sw150 ansible_host=10.112.83.31
@@ -918,7 +912,7 @@ sc2370sw151 ansible_host=10.112.162.30
 
 [ag2374]
 sc2374sw150 ansible_host=10.113.232.31
-#sc2374sw151 ansible_host=10.113.232.30
+sc2374sw151 ansible_host=10.113.232.30
 sc2374sw152 ansible_host=10.113.232.29
 sc2374sw199 ansible_host=10.113.232.24
 
@@ -1453,7 +1447,7 @@ ag1079
 ag1102
 ag1348_1
 ag1544
-ag1554_1
+ag1554
 ag1555
 ag1637
 ag1638_1
@@ -1534,7 +1528,6 @@ ag1096
 ag1348_2
 ag1420
 ag1499
-ag1554_1_cisco
 ag1638_1_cisco
 ag1782
 ag1784_2
