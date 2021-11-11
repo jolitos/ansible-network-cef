@@ -1,4 +1,4 @@
-### NAC CONRRECTION ON CISCO SWITCHES INTERFACES - João Vitor Costa Medeiros
+### NAC CORRECTION ON CISCO SWITCHES INTERFACES - João Vitor Costa Medeiros
 - hosts: switches_cisco
   gather_facts: false
 

@@ -109,7 +109,6 @@ SC2374RA1 ansible_host=10.113.0.117
 SC2375RA1 ansible_host=10.112.0.82
 SC2375RA2 ansible_host=10.112.0.122
 SC2625RA2 ansible_host=10.112.0.7
-SC7820RA1 ansible_host=10.113.0.53
 SC2705RA1 ansible_host=10.112.0.112
 SC2707RA1 ansible_host=10.114.0.43
 SC2714RA1 ansible_host=10.114.0.44
